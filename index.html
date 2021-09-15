@@ -1,83 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
-    <title>Welcome | Codingstep</title>
+    <title>Potato Framework by Code</title>
+    <link rel="stylesheet" href="css/app.css">
 </head>
-
-<body>
-    <div class="wrapper">
-        <div class="title">
-            <h1>Codingstep</h1>
-            Our website is <span>Coming soon</span>, follow us <br> for update now!
-        </div>
-        <form class="form">
-            <div class="email-field">
-                <input id="name" type="text" placeholder="Enter Your Name (optional)">
-                <input id="email" type="email" placeholder="Enter Email Address" required>
-                <button id="send" type="button">Subscribe</button>
+<body class="bg-purple-100 dark:bg-purple-900 overflow-hidden antialiased">
+<div class="grid grid-cols-1 h-screen">
+    <div class="flex flex-col flex-wrap justify-center content-center items-center gap-y-20 p-4 text-white">
+        <h1 class="text-5xl sm:text-6xl md:text-7xl font-thin leading-normal">
+            Code, share, discover and <span class="font-semibold">enjoy!</span>
+        </h1>
+        <form class="w-full sm:w-3/4 md:w-3/5 lg:w-2/4 xl:w-2/5" action="" method="post">
+            <p class="font-bold tracking-widest text-base uppercase mb-2 text-center">
+                Get notified when we launch!
+            </p>
+            <div class="w-full h-14 inline-flex gap-x-2">
+                <input type="text"
+                       class="bg-gray-50 bg-opacity-10 text-white rounded border border-transparent w-9/12 sm:w-10/12 p-4 shadow-md focus:outline-none focus:ring-2 focus:ring-purple-200"
+                       placeholder="Your e-mail address"/>
+                <button type="submit"
+                        class="bg-gray-50 bg-opacity-10 text-white rounded border border-transparent w-3/12 sm:w-2/12 p-4 shadow-md focus:outline-none focus:ring-2 focus:ring-purple-200 focus:bg-purple-700 hover:bg-purple-700">
+                    Send
+                </button>
             </div>
-            <small class="text-info-data">Your information will be stored until launch.</small>
         </form>
-        <div class="count-down">
-            <div class="timer day">
-                <div class="count">
-                    <div class="numb">
-                        00
-                    </div>
-                    <div class="text">
-                        Days
-                    </div>
-                </div>
-            </div>
-            <div class="clone">
-                :
-            </div>
-            <div class="timer hour">
-                <div class="count">
-                    <div class="numb">
-                        00
-                    </div>
-                    <div class="text">
-                        Hours
-                    </div>
-                </div>
-            </div>
-            <div class="clone">
-                :
-            </div>
-            <div class="timer min">
-                <div class="count">
-                    <div class="numb">
-                        00
-                    </div>
-                    <div class="text">
-                        Minutes
-                    </div>
-                </div>
-            </div>
-            <div class="clone">
-                :
-            </div>
-            <div class="timer sec">
-                <div class="count">
-                    <div class="numb">
-                        00
-                    </div>
-                    <div class="text">
-                        Seconds
-                    </div>
-                </div>
+        <div>
+            <span class="block text-lg font-thin tracking-widest text-center">
+                Potato Framework
+            </span>
+            <div class="flex flex-row flex-wrap justify-center items-center gap-x-10 text-sm">
+                <span>
+                    <a href="#" class="hover:text-purple-200">
+                        Code
+                    </a>
+                </span>
+                <span>
+                    <a href="#" class="hover:text-purple-200">
+                        Contact Us
+                    </a>
+                </span>
+                <span>
+                    <a href="https://codeinsight.com.br/r" target="_blank" class="hover:text-purple-200">
+                        Author
+                    </a>
+                </span>
             </div>
         </div>
     </div>
-
-    <script src="assets/js/app.js"></script>
+</div>
 </body>
-
 </html>
