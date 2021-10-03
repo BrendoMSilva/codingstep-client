@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Potato Framework by Code</title>
+    <link rel="shortcut icon" href="assets/image/potato.png" type="image/x-icon">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body class="bg-purple-100 dark:bg-purple-900 overflow-hidden antialiased">
@@ -17,10 +18,12 @@
                 Get notified when we launch!
             </p>
             <div class="w-full h-14 inline-flex gap-x-2">
-                <input type="text"
+                <input id="email"
+                       type="email"
                        class="bg-gray-50 bg-opacity-10 text-white rounded border border-transparent w-9/12 sm:w-10/12 p-4 shadow-md focus:outline-none focus:ring-2 focus:ring-purple-200"
                        placeholder="Your e-mail address"/>
-                <button type="submit"
+                <button id="btnSend"
+                        type="button"
                         class="bg-gray-50 bg-opacity-10 text-white rounded border border-transparent w-3/12 sm:w-2/12 p-4 shadow-md focus:outline-none focus:ring-2 focus:ring-purple-200 focus:bg-purple-700 hover:bg-purple-700">
                     Send
                 </button>
@@ -32,17 +35,17 @@
             </span>
             <div class="flex flex-row flex-wrap justify-center items-center gap-x-10 text-sm">
                 <span>
-                    <a href="#" class="hover:text-purple-200">
+                    <a href="https://github.com/phytoline/potato-framework-codingstep" class="hover:text-purple-200">
                         Code
                     </a>
                 </span>
                 <span>
-                    <a href="#" class="hover:text-purple-200">
+                    <a href="mailto:phytolidev@gmail.com" class="hover:text-purple-200">
                         Contact Us
                     </a>
                 </span>
                 <span>
-                    <a href="https://codeinsight.com.br/r" target="_blank" class="hover:text-purple-200">
+                    <a href="https://codeinsight.com.br" target="_blank" class="hover:text-purple-200">
                         Author
                     </a>
                 </span>
@@ -51,4 +54,5 @@
     </div>
 </div>
 </body>
+<script src="js/app.js"></script>
 </html>
